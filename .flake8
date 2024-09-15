@@ -1,0 +1,14 @@
+[flake8]
+# Excluir diretórios ou arquivos (separados por vírgulas)
+exclude = .git,__pycache__,venv,build,dist
+
+# Máximo de caracteres por linha
+max-line-length = 88
+
+# Ignorar erros específicos
+# Por exemplo, para ignorar a regra E501 (linha muito longa):
+# ignore = E501
+
+# Selecionar apenas certos códigos de erro
+# Por exemplo, para verificar apenas erros relacionados ao PEP8:
+# select = E,W,F
