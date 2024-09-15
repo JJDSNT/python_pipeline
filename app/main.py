@@ -8,6 +8,7 @@ app = FastAPI()
 # Criar as tabelas no banco de dados
 Base.metadata.create_all(bind=engine)
 
+
 # Dependência para obter a sessão do banco de dados
 def get_db():
     db = SessionLocal()
